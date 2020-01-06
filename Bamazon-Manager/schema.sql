@@ -15,13 +15,13 @@ CREATE TABLE products(
 SELECT * FROM products;
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Uncharted 4", "Video Games", 49.95, 150),
-  ("DOOM", "Video Games", 59.99, 200),
-  ("Crate of Spam", "Food and Drink", 24.50, 50),
-  ("Cool Shades", "Apparel", 75.00, 5),
-  ("Worn Denim Jeans", "Apparel", 54.25, 35),
-  ("Survival Towel", "Necessities", 42.42, 42),
-  ("Bill and Ted's Excellent Adventure", "Films", 15.00, 25),
-  ("Mad Max: Fury Road", "Films", 25.50, 57),
-  ("Monopoly", "Board Games", 30.50, 35),
-  ("Yahtzee", "Board Games", 19.95, 23);
+VALUES ("Powder Blush", "Cheeks", 19.95, 100),
+  ("Cream Blush", "Cheeks", 39.99, 100),
+  ("Biotin", "Vitamins", 24.50, 200),
+  ("Hair Wrap", "Accessories", 10.00, 54),
+  ("Jade Roller", "Accessories", 60.75, 35),
+  ("Moisturizer", "Face", 32.00, 88),
+  ("Lipstick", "Lips", 15.00, 110),
+  ("Lip Gloss", "Lips", 19.95, 105),
+  ("Mascara", "Eyes", 20.50, 130),
+  ("Eyeliner", "Eyes", 29.95, 90);
