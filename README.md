@@ -53,10 +53,10 @@ However, if the store does have enough of the product, it fulfills the customer'
 
   * If a manager selects `Add New Product`, it shall allow the manager to add a completely new product to the store.
 
-https://github.com/sarahbmcl/bamazon/blob/master/bamazon_customer_1.png
+![alt text](https://github.com/sarahbmcl/bamazon/blob/master/bamazon_customer_1.png "1")
 
-https://github.com/sarahbmcl/bamazon/blob/master/bamazon_manager_1.png
+![alt text](https://github.com/sarahbmcl/bamazon/blob/master/bamazon_manager_1.png "2")
 
-https://github.com/sarahbmcl/bamazon/blob/master/bamazon_manager_2.png
+![alt text](https://github.com/sarahbmcl/bamazon/blob/master/bamazon_manager_2.png "3")
 
-https://github.com/sarahbmcl/bamazon/blob/master/bamazon_supervisor_1.png
+![alt text](https://github.com/sarahbmcl/bamazon/blob/master/bamazon_supervisor_1.png "4")
