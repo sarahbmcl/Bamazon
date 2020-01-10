@@ -18,7 +18,7 @@ The products table includes each of the following columns:
 
 This database contains 10 or more  different products. 
 
-Also I created a Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
+I created a Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
 
 The app will then prompt users with two messages.
 
@@ -32,6 +32,8 @@ Once the customer has placed the order, the app will check if the store has enou
 However, if the store does have enough of the product, it fulfills the customer's order.
    * This means the SQL database updates to reflect the remaining quantity.
    * Once the update goes through,  it shows the customer the total cost of their purchase.
+
+![alt text](https://github.com/sarahbmcl/bamazon/blob/master/bamazon_customer_1.png "1")
 
    To follow the customer.js I also created a new Node application called `bamazonManager.js`. Running this application will:
 
@@ -53,10 +55,21 @@ However, if the store does have enough of the product, it fulfills the customer'
 
   * If a manager selects `Add New Product`, it shall allow the manager to add a completely new product to the store.
 
-![alt text](https://github.com/sarahbmcl/bamazon/blob/master/bamazon_customer_1.png "1")
-
 ![alt text](https://github.com/sarahbmcl/bamazon/blob/master/bamazon_manager_1.png "2")
 
 ![alt text](https://github.com/sarahbmcl/bamazon/blob/master/bamazon_manager_2.png "3")
+
+   Finally, I created a new Node application called `bamazonSupervisor.js`. Running this application will:
+
+  * List a set of menu options:
+
+    * View Sales by Department
+    
+    * Create a New Department
+
+    
+* If a supervisor selects `View Sales by Department`, the app shall list every available item: the item IDs, names, prices, and quantities.
+
+* If a supervisor selects `Create a New Department`, then it shall prompt the supervisor to enter the name of the department and overhead cost of the department. This is department is now added.
 
 ![alt text](https://github.com/sarahbmcl/bamazon/blob/master/bamazon_supervisor_1.png "4")
